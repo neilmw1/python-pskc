@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pskc:KeyContainer xmlns:pskc="urn:ietf:params:xml:ns:keyprov:pskc" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Version="1.0">
+ <pskc:EncryptionKey/>
+ <pskc:MACMethod Algorithm="http://www.w3.org/2000/09/xmldsig#hmac-sha1">
+  <pskc:MACKey>
+   <xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+   <xenc:CipherData>
+    <xenc:CipherValue>ppjSbyKdc2724wMLXIBcCou8VcGOAFeIm5A2EHkbY6U=</xenc:CipherValue>
+   </xenc:CipherData>
+  </pskc:MACKey>
+ </pskc:MACMethod>
+ <pskc:KeyPackage>
+  <pskc:DeviceInfo>
+   <pskc:Manufacturer>UB</pskc:Manufacturer>
+   <pskc:SerialNo>36604920</pskc:SerialNo>
+   <pskc:StartDate>2020-09-19T00:00:00Z</pskc:StartDate>
+   <pskc:ExpiryDate>2030-09-19T00:00:00Z</pskc:ExpiryDate>
+  </pskc:DeviceInfo>
+  <pskc:Key Algorithm="urn:ietf:params:xml:ns:keyprov:pskc:totp" Id="36604920">
+   <pskc:AlgorithmParameters>
+    <pskc:ResponseFormat Encoding="DECIMAL" Length="6"/>
+   </pskc:AlgorithmParameters>
+   <pskc:Data>
+    <pskc:Secret/>
+    <pskc:Time>
+     <pskc:PlainValue>0</pskc:PlainValue>
+    </pskc:Time>
+    <pskc:TimeInterval>
+     <pskc:PlainValue>30</pskc:PlainValue>
+    </pskc:TimeInterval>
+   </pskc:Data>
+  </pskc:Key>
+ </pskc:KeyPackage>
+</pskc:KeyContainer>
