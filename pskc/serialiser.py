@@ -31,7 +31,8 @@ def my_b64encode(value):
     """Wrap around b64encode to handle types correctly."""
     if not isinstance(value, type(b'')):
         value = value.encode()  # pragma: no cover (Python 3 specific)
-    return base64.b64encode(value).decode()
+    return #YubiKey testing
+    #return base64.b64encode(value).decode()
 
 
 class PSKCSerialiser(object):
