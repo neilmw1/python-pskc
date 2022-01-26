@@ -29,7 +29,7 @@ from pskc.xml import find, mk_elem, move_namespaces, reformat, tostring
 
 def my_b64encode(value):
     """Wrap around b64encode to handle types correctly."""
-    print("Test")
+    print("Testaa")
     if not isinstance(value, type(b'')):
         #value = value.encode()  # pragma: no cover (Python 3 specific)
         print("Test2")
