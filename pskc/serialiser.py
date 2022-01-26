@@ -33,7 +33,7 @@ def my_b64encode(value):
     if not isinstance(value, type(b'')):
         #value = value.encode()  # pragma: no cover (Python 3 specific)
         print("Test2")
-    return #YubiKey testing
+    return value #YubiKey testing
     #return base64.b64encode(value).decode()
 
 
